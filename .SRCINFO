@@ -1,0 +1,17 @@
+pkgbase = php-openswoole
+	pkgdesc = Coroutine-based concurrency library for PHP
+	pkgver = 22.0.0
+	pkgrel = 1
+	url = https://github.com/openswoole/swoole-src
+	arch = x86_64
+	license = Apache
+	makedepends = autoconf
+	makedepends = gcc
+	makedepends = make
+	depends = php
+	source = https://github.com/openswoole/swoole-src/archive/refs/tags/v22.0.0.tar.gz
+	source = openswoole.ini
+	sha256sums = 9886c6b619edec3ec3e269ca63aed9170502249c902885088a881678524e4e06
+	sha256sums = 41879b5bea7c87bd5b38c3d2335bd783bf2052d89a8959bf458219743e30999f
+
+pkgname = php-openswoole
